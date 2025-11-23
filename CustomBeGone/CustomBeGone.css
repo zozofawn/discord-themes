@@ -1,0 +1,57 @@
+/**
+ * @name CustomBeGone
+ * @author ZozoFawn
+ * @version 1.0
+ * @description All patches in CustomBeGone.
+ * @source https://github.com/
+ * @website https://github.com/zozofawn/discord-themes/CustomBeGone
+ */
+/*
+
+/* revert custom name colors */
+.innerContainer_dfb989,
+.gradient_dfb989 {
+    all: unset !important;
+    display: revert !important;
+    font-family: "gg sans" !important;
+}
+
+/* revert fonts */
+.cherryBomb__89a31,
+.cherryBomb__89a31.safari__89a31,
+.chicle__89a31,
+.museoModerno__89a31,
+.neoCastel__89a31,
+.neoCastel__89a31.safari__89a31,
+.pixelify__89a31,
+.sinistre__89a31,
+.zillaSlab__89a31 {
+    font-family: "gg sans" !important;
+    letter-spacing: normal !important;
+}
+
+/* nameplates */
+.container__4bbc6,
+.fadeIn__4bbc6 {
+    display: none !important;
+}
+
+/* profile effects */
+.profileEffects__01370 {
+    display: none !important;
+}
+
+/* avatar decoration */
+.avatarDecoration_c19a55,
+.avatarDecoration__44b0c {
+    display: none !important;
+}
+
+/* nitro banner */
+.banner__68edb,
+.banner__7f9c0 {
+    background-image: none !important;
+    object-fit: cover;
+    content: none !important;
+    image-rendering: pixelated;
+}
