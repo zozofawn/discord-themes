@@ -16,6 +16,18 @@
     font-family: "gg sans" !important;
 }
 
+/* revert extra text animation */
+.showEffect_dfb989.container_dfb989 .toon_dfb989:before,
+.showEffect_dfb989.container_dfb989 .pop_dfb989:before {
+    background: none !important;
+}
+
+/* revert & fix glow container dupe */
+.glowContainer_dfb989 {
+    all: unset !important;
+    display: none !important;
+}
+
 /* revert fonts */
 .cherryBomb__89a31,
 .cherryBomb__89a31.safari__89a31,
