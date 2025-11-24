@@ -1,0 +1,23 @@
+/* username gradient set to first color */
+.usernameGradient_e5de78 {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: var(--custom-gradient-color-1) !important;
+    color: var(--custom-gradient-color-1) !important;
+    text-decoration-color: var(--custom-gradient-color-1) !important;
+}
+
+/* role circle */
+.roleCircle__4f569.twoColorGradient_e5de78 {
+    background: var(--custom-gradient-color-1) !important;
+    background-image: none !important;
+    -webkit-background-clip: unset !important;
+    background-clip: unset !important;
+    animation: none !important;
+}
+
+/* duplicate glow */
+.nameGlow__703b9 {
+    display: none !important;
+}

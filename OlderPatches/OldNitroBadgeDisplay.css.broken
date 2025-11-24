@@ -1,0 +1,35 @@
+.popoverContentWithGradient_d6f39b {
+    all: unset !important;
+}
+
+.title_d6f39b,
+.graphic--lg_d6f39b {
+    display: none !important;
+}
+
+.container_a62383
+.popoverGradientWrapper_d6f39b {
+    all: unset !important;
+    background: none !important;
+}
+
+.popoverGradientWrapper_d6f39b {
+    border-radius: 8px !important;
+}
+
+/* pseudo element background override */
+:where(.container_a62383):before {
+    background-color: #313338 !important;
+}
+
+.caret__6ec79.caret--bottom__6ec79.caret--custom__6ec79.caretHoverable__2ee1b {
+    display: none !important;
+}
+
+.headerBody__2ee1b,
+.headerBody_d6f39b {
+    padding: 10px !important;
+    color: white !important;
+}
+
+/* do not push, broken on light profiles? */
