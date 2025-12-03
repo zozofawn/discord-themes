@@ -14,6 +14,8 @@ These options can be added manually with all of the different snippets provided 
 **OlderPatches** - A collection of smaller individual patches that help to bring back older Discord features or remove certain unnecessary new ones. Available patches include:
 - Old Nitro Badge
 - No Gradient Role Colors
+- No Guild Tags
+- No Quest Badge
 
 ### Credits:
 I have personally developed all of these CSS snippets myself. All assets referenced within the themes belong to Discord and are not modified in any way.

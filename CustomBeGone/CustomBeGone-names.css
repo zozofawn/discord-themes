@@ -27,3 +27,8 @@
     font-family: "gg sans" !important;
     letter-spacing: normal !important;
 }
+
+/* fix issue with spacing post-fix */
+.withDisplayNameStyles__20a53 {
+    max-width: fit-content !important;
+}

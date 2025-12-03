@@ -42,6 +42,11 @@
     letter-spacing: normal !important;
 }
 
+/* fix issue with spacing post-fix */
+.withDisplayNameStyles__20a53 {
+    max-width: fit-content !important;
+}
+
 /* nameplates */
 .container__4bbc6,
 .fadeIn__4bbc6 {

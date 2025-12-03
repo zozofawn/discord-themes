@@ -1,0 +1,4 @@
+/* removes the quest badge from user profiles */
+div[aria-label="Completed a Quest"] {
+	display: none !important;
+}
