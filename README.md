@@ -17,5 +17,8 @@ These options can be added manually with all of the different snippets provided 
 - No Guild Tags
 - No Quest Badge
 
+**Hotfixes** - A collection of hotfixes for bugs that Discord has introduced in recent updates.
+- Hotfix_12-9-2025, Blank Badges: Fixes a bug where Discord shows blank badges by hiding them.
+
 ### Credits:
 I have personally developed all of these CSS snippets myself. All assets referenced within the themes belong to Discord and are not modified in any way.
