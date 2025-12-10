@@ -19,7 +19,7 @@ These options can be added manually with all of the different snippets provided 
 - No Frequent Friends Tab
 
 **Hotfixes** - A collection of hotfixes for bugs that Discord has introduced in recent updates.
-- Hotfix_12-9-2025, Blank Badges: Fixes a bug where Discord shows blank badges by hiding them.
+- Hotfix_12-9-2025, **(FIXED)** Blank Badges: ~~Fixes a bug where VENCORD shows blank badges by hiding them.~~ (Vencord has updated PlatformIndicators to fix the issue).
 
 ### Credits:
 I have personally developed all of these CSS snippets myself. All assets referenced within the themes belong to Discord and are not modified in any way.
