@@ -16,6 +16,7 @@ These options can be added manually with all of the different snippets provided 
 - No Gradient Role Colors
 - No Guild Tags
 - No Quest Badge
+- No Frequent Friends Tab
 
 **Hotfixes** - A collection of hotfixes for bugs that Discord has introduced in recent updates.
 - Hotfix_12-9-2025, Blank Badges: Fixes a bug where Discord shows blank badges by hiding them.

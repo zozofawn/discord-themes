@@ -1,0 +1,4 @@
+.frequentFriendsRow__1fc18,
+.frequentFriendsRow__1fc18 + * {
+    display: none !important;
+}

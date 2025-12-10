@@ -1,4 +1,4 @@
 /* fixes a bug where discord shows blank badges (patch hides them) */
 a > img[src="https://cdn.discordapp.com/badge-icons/undefined.png"] {
-  display: none;
+    display: none;
 }
