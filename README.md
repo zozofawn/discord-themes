@@ -17,6 +17,10 @@ These options can be added manually with all of the different snippets provided 
 - No Guild Tags
 - No Quest Badge
 - No Frequent Friends Tab
+- No Profile Sidebar
+
+**Random** - Some random stuff I made that doesn't deserve their own category. Available themes include:
+- MessageHighlight - Highlights your messages and other people's messages (requires configuration inside the file, don't just load it as a link)
 ### Changelog:
 - 12/16/2025: Thank you for changing all your CSS class names again Discord 🖕 (Patched for new class names, everything should work now)
 ### Credits:

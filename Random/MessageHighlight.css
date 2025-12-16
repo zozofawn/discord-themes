@@ -1,0 +1,66 @@
+/* 
+ran this thru a css formatter sorry if the code looks jank 
+also this might be a bit broken unless you hover over your own messages to load the context menu
+*/
+
+/* edit colors 
+    - highlight color is for messages that match (your messages)
+    - other color is for messages that dont match
+
+    each has a line color on the left side of a message and a bg color which is a lower opacity version of the line color
+*/
+:root {
+    --highlight-color: hotpink;
+    --highlight-bg-color: rgba(255, 105, 180, 0.1);
+    --other-color: cornflowerblue;
+    --other-bg-color: rgba(100, 149, 237, 0.1);
+}
+
+/* do match */
+[id*="chat-messages"] li:has(
+        ._5126c0cd07f243a0-groupStart
+            img.c19a557985eb7793-avatar[src*="User Account ID here"] /* replace with your user id */
+    ) {
+    background-color: var(--highlight-bg-color);
+    border-left: 3px solid var(--highlight-color);
+}
+
+li[id*="chat-messages"]:has(
+        ._5126c0cd07f243a0-groupStart
+            img.c19a557985eb7793-avatar[src*="User Account ID here"] /* replace with your user id */
+    ) {
+    background-color: var(--highlight-bg-color);
+    border-left: 3px solid var(--highlight-color);
+}
+
+[id*="chat-messages"] li:has([aria-label="Edit"]) {
+    background-color: var(--highlight-bg-color);
+    border-left: 3px solid var(--highlight-color);
+}
+
+li[id*="chat-messages"]:has([aria-label="Edit"]) {
+    background-color: var(--highlight-bg-color);
+    border-left: 3px solid var(--highlight-color);
+}
+
+/* dont match (DELETE THIS SECTION IF YOU ONLY WANT TO HIGHLIGHT YOUR OWN MESSAGES) */
+[id*="chat-messages"]
+    li:not(
+        :has(
+                ._5126c0cd07f243a0-groupStart
+                    img.c19a557985eb7793-avatar[src*="User Account ID here"] /* replace with your user id */
+            )
+    ):not(:has([aria-label="Edit"])) {
+    background-color: var(--other-bg-color);
+    border-left: 3px solid var(--other-color);
+}
+
+li[id*="chat-messages"]:not(
+        :has(
+                ._5126c0cd07f243a0-groupStart
+                    img.c19a557985eb7793-avatar[src*="User Account ID here"] /* replace with your user id */
+            )
+    ):not(:has([aria-label="Edit"])) {
+    background-color: var(--other-bg-color);
+    border-left: 3px solid var(--other-color);
+}
