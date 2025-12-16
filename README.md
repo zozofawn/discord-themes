@@ -1,4 +1,4 @@
-# ZozoFawn's Custom Discord Themes
+# ZozoFawn's Custom Discord Themes (Patched for 12/16/2025)
 ### Introduction:
 Here is a collection of themes I wrote to improve your Discord experience by removing intrusive customization elements. These themes are designed to give you a cleaner, more vanilla look while not breaking the functionality of Discord.
 ### Available Themes:
@@ -17,9 +17,7 @@ These options can be added manually with all of the different snippets provided 
 - No Guild Tags
 - No Quest Badge
 - No Frequent Friends Tab
-
-**Hotfixes** - A collection of hotfixes for bugs that Discord has introduced in recent updates.
-- Hotfix_12-9-2025, Blank Badges: Fixes a bug where Discord shows blank badges by hiding them.
-
+### Changelog:
+- 12/16/2025: Thank you for changing all your CSS class names again Discord 🖕 (Patched for new class names, everything should work now)
 ### Credits:
 I have personally developed all of these CSS snippets myself. All assets referenced within the themes belong to Discord and are not modified in any way.

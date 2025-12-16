@@ -1,74 +1,69 @@
-/**
- * @name CustomBeGone
- * @author ZozoFawn
- * @version 1.0
- * @description All patches in CustomBeGone.
- * @source https://github.com/
- * @website https://github.com/zozofawn/discord-themes/tree/main/CustomBeGone
- */
-/*
+/* i am lazy so i used an ai tool for merging everything */
 
-/* revert custom name colors */
-.innerContainer_dfb989,
-.gradient_dfb989 {
-    all: unset !important;
-    display: revert !important;
-    font-family: "gg sans" !important;
+/* Source: CustomBeGone-banner.css */
+.\_68edb95846a37624-banner,
+.\_7f9c030b25536e94-banner {
+	background-image: none !important;
+	object-fit: cover;
+	content: none !important;
+	image-rendering: pixelated;
 }
 
-/* revert extra text animation */
-.showEffect_dfb989.container_dfb989 .toon_dfb989:before,
-.showEffect_dfb989.container_dfb989 .pop_dfb989:before {
-    background: none !important;
+/* Source: CustomBeGone-decorations.css */
+.\_44b0c28be7879b7b-avatarDecoration {
+	display: none !important;
 }
 
-/* revert & fix glow container dupe */
-.glowContainer_dfb989 {
-    all: unset !important;
-    display: none !important;
+/* Source: CustomBeGone-effects.css */
+.\_0137000bc80ab6ea-profileEffects {
+	display: none !important;
 }
 
-/* revert fonts */
-.cherryBomb__89a31,
-.cherryBomb__89a31.safari__89a31,
-.chicle__89a31,
-.museoModerno__89a31,
-.neoCastel__89a31,
-.neoCastel__89a31.safari__89a31,
-.pixelify__89a31,
-.sinistre__89a31,
-.zillaSlab__89a31 {
-    font-family: "gg sans" !important;
-    letter-spacing: normal !important;
+/* Source: CustomBeGone-nameplates.css */
+.\_4bbc6dc06e75ad52-container {
+	all: unset !important;
 }
 
-/* fix issue with spacing post-fix */
-.withDisplayNameStyles__20a53 {
-    max-width: fit-content !important;
+/* Source: CustomBeGone-names.css */
+/* i think these work but im not 100% sure lol */
+.dfb989b3f435152a-gradient {
+	all: unset !important;
+	display: revert !important;
+	font-family: "gg sans" !important;
+	letter-spacing: normal !important;
 }
 
-/* nameplates */
-.container__4bbc6,
-.fadeIn__4bbc6 {
-    display: none !important;
+.dfb989b3f435152a-animated,
+.dfb989b3f435152a-loop {
+	animation: none !important;
 }
 
-/* profile effects */
-.profileEffects__01370 {
-    display: none !important;
+.dfb989b3f435152a-container,
+.dfb989b3f435152a-innerContainer,
+.\_63ed30c16c7151f2-nicknameWithDisplayNameStyles,
+.dfb989b3f435152a-neon,
+.dfb989b3f435152a-toon,
+.dfb989b3f435152a-toon:before {
+	all: unset !important;
+	animation: none !important;
 }
 
-/* avatar decoration */
-.avatarDecoration_c19a55,
-.avatarDecoration__44b0c {
-    display: none !important;
+.dfb989b3f435152a-neonGlow {
+	all: unset !important;
+	display: none !important;
 }
 
-/* nitro banner */
-.banner__68edb,
-.banner__7f9c0 {
-    background-image: none !important;
-    object-fit: cover;
-    content: none !important;
-    image-rendering: pixelated;
+.\_89a318b9387eda06-dnsFont,
+.\_89a318b9387eda06-cherryBomb,
+.\_89a318b9387eda06-cherryBomb._89a318b9387eda06-safari,
+.\_89a318b9387eda06-chicle,
+.\_89a318b9387eda06-museoModerno,
+.\_89a318b9387eda06-neoCastel,
+.\_89a318b9387eda06-neoCastel._89a318b9387eda06-safari,
+.\_89a318b9387eda06-pixelify,
+.\_89a318b9387eda06-sinistre,
+.\_89a318b9387eda06-zillaSlab {
+	font-family: "gg sans" !important;
+	letter-spacing: normal !important;
 }
+

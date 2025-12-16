@@ -1,34 +1,41 @@
-.innerContainer_dfb989,
-.gradient_dfb989 {
+/* i think these work but im not 100% sure lol */
+.dfb989b3f435152a-gradient {
     all: unset !important;
     display: revert !important;
-    font-family: "gg sans" !important;
-}
-
-.showEffect_dfb989.container_dfb989 .toon_dfb989:before,
-.showEffect_dfb989.container_dfb989 .pop_dfb989:before {
-    background: none !important;
-}
-
-.glowContainer_dfb989 {
-    all: unset !important;
-    display: none !important;
-}
-
-.cherryBomb__89a31,
-.cherryBomb__89a31.safari__89a31,
-.chicle__89a31,
-.museoModerno__89a31,
-.neoCastel__89a31,
-.neoCastel__89a31.safari__89a31,
-.pixelify__89a31,
-.sinistre__89a31,
-.zillaSlab__89a31 {
     font-family: "gg sans" !important;
     letter-spacing: normal !important;
 }
 
-/* fix issue with spacing post-fix */
-.withDisplayNameStyles__20a53 {
-    max-width: fit-content !important;
+.dfb989b3f435152a-animated,
+.dfb989b3f435152a-loop {
+    animation: none !important;
+}
+
+.dfb989b3f435152a-container,
+.dfb989b3f435152a-innerContainer,
+.\_63ed30c16c7151f2-nicknameWithDisplayNameStyles,
+.dfb989b3f435152a-neon,
+.dfb989b3f435152a-toon,
+.dfb989b3f435152a-toon:before {
+    all: unset !important;
+    animation: none !important;
+}
+
+.dfb989b3f435152a-neonGlow {
+    all: unset !important;
+    display: none !important;
+}
+
+.\_89a318b9387eda06-dnsFont,
+.\_89a318b9387eda06-cherryBomb,
+.\_89a318b9387eda06-cherryBomb._89a318b9387eda06-safari,
+.\_89a318b9387eda06-chicle,
+.\_89a318b9387eda06-museoModerno,
+.\_89a318b9387eda06-neoCastel,
+.\_89a318b9387eda06-neoCastel._89a318b9387eda06-safari,
+.\_89a318b9387eda06-pixelify,
+.\_89a318b9387eda06-sinistre,
+.\_89a318b9387eda06-zillaSlab {
+    font-family: "gg sans" !important;
+    letter-spacing: normal !important;
 }

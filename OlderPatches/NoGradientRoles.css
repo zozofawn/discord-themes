@@ -1,15 +1,17 @@
 /* username gradient set to first color */
-.usernameGradient_e5de78 {
+.e5de7811b2777bfa-animateGradient,
+.e5de7811b2777bfa-usernameGradient {
     background: none !important;
     -webkit-background-clip: unset !important;
     background-clip: unset !important;
     -webkit-text-fill-color: var(--custom-gradient-color-1) !important;
     color: var(--custom-gradient-color-1) !important;
     text-decoration-color: var(--custom-gradient-color-1) !important;
+    animation: none !important;
 }
 
 /* role circle */
-.roleCircle__4f569.twoColorGradient_e5de78 {
+.\_4f569b8941af22d1-roleCircle.e5de7811b2777bfa-twoColorGradient {
     background: var(--custom-gradient-color-1) !important;
     background-image: none !important;
     -webkit-background-clip: unset !important;
@@ -18,6 +20,6 @@
 }
 
 /* duplicate glow */
-.nameGlow__703b9 {
+.e5de7811b2777bfa-usernameGlow {
     display: none !important;
 }
