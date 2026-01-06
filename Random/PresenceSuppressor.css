@@ -1,0 +1,21 @@
+/* status stuff */
+.c0bea05627c5dc35-overlay._39ec2e3dfb4fd2f2-card._39ec2e3dfb4fd2f2-card._9d59731d47494e97-card {
+    display: none !important;
+}
+
+._4bd5201c86a2042b-defaultColor.cf48127484dbde85-text-xs\/normal.c9d15c8a962de3c8-dot._972a0d22c8afa7f0-activityStatusText {
+    display: none !important;
+}
+
+.c9d15c8a962de3c8-container.c9d15c8a962de3c8-textWithIconContainer.c9d15c8a962de3c8-textXs {
+    display: none !important;
+}
+
+._4bd5201c86a2042b-defaultColor.cf48127484dbde85-text-xs\/normal.c9d15c8a962de3c8-dot {
+    display: none !important;
+}
+
+/* activity card (removes all) */
+section:has(h3[style*="color: currentcolor"]):has(._764cdd81a2bebd88-cards) {
+    display: none !important;
+}
