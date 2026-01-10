@@ -1,6 +1,10 @@
-# ZozoFawn's Custom Discord Themes (Patched for 12/16/2025)
+<div align="center">
+  <h1>ZozoFawn's Custom Discord Themes 🎨 (CSS)</h1>
+  <img src="https://api.star-history.com/svg?repos=zozofawn/discord-themes&type=date&legend=bottom-right" width="500px">
+</div>
+
 ### Introduction:
-Here is a collection of themes I wrote to improve your Discord experience by removing intrusive customization elements. These themes are designed to give you a cleaner, more vanilla look while not breaking the functionality of Discord. ⚠️ These themes are only tested and verified working for dark mode, I don't use light mode or develop with it in mind.
+Here is a collection of themes I wrote to improve your Discord experience by removing intrusive customization elements. These themes are designed to give you a cleaner, more vanilla look while not breaking the functionality of Discord. Make sure to use something like [Vencord](https://vencord.dev/) to inject CSS themes! ⚠️ These themes are only tested and verified working for dark mode, I don't use light mode or develop with it in mind.
 ### Available Themes:
 **CustomBeGone** - A theme that aims to remove intrusive customization elements from users' profiles, providing a more vanilla Discord experience. You can choose to disable:
 - Avatar & Profile Decorations
